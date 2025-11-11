@@ -1,0 +1,1 @@
+export const BaseUrl ='https://cred-react-1-be.onrender.com'
