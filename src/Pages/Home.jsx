@@ -83,11 +83,11 @@ const Home = () => {
               <p>{eachData.age}</p>
               <button onClick={() => deleteStudent(eachData.id)}>delete</button>
               <Button variant="primary" onClick={handleShow}>
-                Launch demo modal
+             edit
               </Button>
               <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
-                  <Modal.Title>Modal heading</Modal.Title>
+                  <Modal.Title>Edit</Modal.Title>
                 </Modal.Header>
                 <input
                   onChange={(e) =>
